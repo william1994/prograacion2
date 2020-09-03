@@ -42,11 +42,11 @@ public class ClsEstudainte {
                 usuariodebasedatos = iterador.getUsu();
                 passsdebasedados = iterador.getPass();
             }
-            if(usuariodebasedatos.isEmpty() || passsdebasedados.isEmpty()){
+         
             if (usuariodebasedatos.equals(usuario) && passsdebasedados.equals(Pass)) {
                 return true;
 
-            }
+            
             }
 
             conectar.close();
