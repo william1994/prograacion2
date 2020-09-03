@@ -19,4 +19,5 @@ public class Estudiante extends Persona {
     private int martricula;
     private String Usu;
     private String pass;
+    
 }

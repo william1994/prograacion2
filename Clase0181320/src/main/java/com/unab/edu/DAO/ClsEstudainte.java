@@ -42,15 +42,14 @@ public class ClsEstudainte {
                 usuariodebasedatos = iterador.getUsu();
                 passsdebasedados = iterador.getPass();
             }
-         
+
             if (usuariodebasedatos.equals(usuario) && passsdebasedados.equals(Pass)) {
                 return true;
 
-            
             }
 
             conectar.close();
-           
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
         }

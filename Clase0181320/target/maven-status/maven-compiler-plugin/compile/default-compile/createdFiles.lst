@@ -10,6 +10,7 @@ com\unab\edu\clase0181320\welcomeToJava.class
 com\unab\edu\Entidades\Estudiante.class
 com\unab\edu\Operacionesdb\crudPersona$7.class
 com\unab\edu\Operacionesdb\crudPersona.class
+com\unab\edu\Operacionesdb\VistaEstudiante$1.class
 com\unab\edu\clase0181320\welcomeToJava$2.class
 com\unab\edu\Operacionesdb\crudPersona$4.class
 com\unab\edu\clase0181320\Operaciones$1.class
@@ -19,6 +20,7 @@ com\unab\edu\Operacionesdb\crudPersona$6.class
 com\unab\edu\clase0181320\Operaciones.class
 com\unab\edu\Operacionesdb\crudPersona$3.class
 com\unab\edu\Operacionesdb\joinEstudiantePerson.class
+com\unab\edu\Operacionesdb\VistaEstudiante.class
 com\unab\edu\clase0181320\welcomeToJava$1.class
 com\unab\edu\Operacionesdb\frmLoguin$2.class
 com\unab\edu\clase0181320\Operaciones$2.class
