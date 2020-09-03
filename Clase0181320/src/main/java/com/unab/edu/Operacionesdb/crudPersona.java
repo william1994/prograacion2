@@ -24,7 +24,7 @@ public class crudPersona extends javax.swing.JFrame {
         initComponents();
         MostrarTablaPersona();
     }
-    
+
     void MostrarTablaPersona() {
         String TITULOS[] = {"ID", "NOMBRE", "APELLIDO", "EDAD", "SEXO"};
         DefaultTableModel ModeloTabla = new DefaultTableModel(null, TITULOS);
@@ -38,6 +38,10 @@ public class crudPersona extends javax.swing.JFrame {
             filas[3] = String.valueOf(IterarDatosPersona.getEdad());
             filas[4] = IterarDatosPersona.getSexo();
             ModeloTabla.addRow(filas);
+
+        }
+        
+        for (int i = 0; i < 10; i--) {
             
         }
         tb_Persona.setModel(ModeloTabla);
@@ -286,13 +290,13 @@ public class crudPersona extends javax.swing.JFrame {
         String apellido = String.valueOf(tb_Persona.getValueAt(fila, 2));
         String edad = String.valueOf(tb_Persona.getValueAt(fila, 3));
         String sexo = String.valueOf(tb_Persona.getValueAt(fila, 4));
-        
+
         txtId.setText(ID);
         txtNombre.setText(nombre);
         txtSexo.setText(sexo);
         txtApellido.setText(apellido);
         txtEdad.setText(edad);
-        
+
     }//GEN-LAST:event_tb_PersonaMouseClicked
 
     /**

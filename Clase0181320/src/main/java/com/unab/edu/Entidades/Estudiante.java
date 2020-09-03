@@ -12,9 +12,11 @@ import lombok.*;
  * @author William
  */
 @Data
-@EqualsAndHashCode(callSuper=false)
-public class Estudiante extends Persona{
+@EqualsAndHashCode(callSuper = false)
+public class Estudiante extends Persona {
+
     private int Id;
     private int martricula;
-    
+    private String Usu;
+    private String pass;
 }
